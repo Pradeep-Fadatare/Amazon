@@ -13,4 +13,8 @@ public class GitCheck {
     public void gitbranch(){
         System.out.println("Checking for git brnch");
     }
+
+    public void  gitbranch1(){
+        System.out.println("Checking for git brnch from Australia");
+    }
 }
