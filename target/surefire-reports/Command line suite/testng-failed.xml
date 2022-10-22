@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="PradeepFadatareAutomation.Test.SubmitOrderTest">
+        <methods>
+          <include name="orderHistoryCheck"/>
+          <include name="LaunchingApp"/>
+          <include name="submitOrder" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PradeepFadatareAutomation.Test.SubmitOrderTest -->
+      <class name="PradeepFadatareAutomation.Test.StandAloneTest">
+        <methods>
+          <include name="submitOrder"/>
+          <include name="LaunchingApp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PradeepFadatareAutomation.Test.StandAloneTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

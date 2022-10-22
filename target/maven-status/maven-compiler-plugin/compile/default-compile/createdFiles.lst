@@ -1,0 +1,8 @@
+PradeepFadatareAutomation\pageObjects\OrderPage.class
+PradeepFadatareAutomation\pageObjects\AbstractComponent\AbstractClass.class
+PradeepFadatareAutomation\pageObjects\CheckOutPage.class
+PradeepFadatareAutomation\pageObjects\FinalPage.class
+PradeepFadatareAutomation\pageObjects\ConfirmationPage.class
+PradeepFadatareAutomation\pageObjects\ProductCatalogPage.class
+PradeepFadatareAutomation\pageObjects\Resources\ExtentReportNG.class
+PradeepFadatareAutomation\pageObjects\LandingPage.class
