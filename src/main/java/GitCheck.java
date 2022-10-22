@@ -9,4 +9,8 @@ public class GitCheck {
     public void checkFromUsa(){
         System.out.println("Hellow India I am Visible ???");
     }
+
+    public void gitbranch(){
+        System.out.println("Checking for git brnch");
+    }
 }

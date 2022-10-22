@@ -20,6 +20,7 @@ public class SubmitOrderTest extends BaseTest {
 
     @Test(dataProvider = "getData",groups = {"Purchase"})
     public void submitOrder(HashMap<String,String> input)  {
+//        This is stand Alone Test
 
         ProductCatalogPage pcp = landingPage.login(input.get("email"), input.get("password"));
         List<WebElement> products = pcp.productList();
@@ -62,6 +63,7 @@ public class SubmitOrderTest extends BaseTest {
         List<HashMap<String,String>> data=getJsonDataToMap("\\src\\test\\java\\radeepFadatareAutomation\\Data\\PurchaseOrder.json");
        return new Object[][] {{data.get(0)},{data.get(1)}};
     }
+
 
 
 }
